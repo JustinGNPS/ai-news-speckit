@@ -1,0 +1,6 @@
+fastapi==0.110.2
+uvicorn==0.29.0
+feedparser==6.0.11
+transformers==4.39.3
+torch>=2.2.0; platform_system != 'Windows' or platform_machine != 'ARM64'
+torch==2.2.1; platform_system == 'Windows' and platform_machine == 'ARM64'
